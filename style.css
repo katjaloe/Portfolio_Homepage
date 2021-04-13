@@ -171,7 +171,15 @@ row.about-information {
   background-color: #202020;
 }
 
-@media (max-width: 576px) {
+.Github-link {
+  font-size: x-small;
+}
+
+.Github-link a {
+  color: #f65282;
+}
+
+@media (max-width: 768px) {
   h1 {
     font-size: 42px;
   }
@@ -183,6 +191,10 @@ row.about-information {
     font-size: x-small;
   }
   .Copyright {
+    font-size: 8px;
+  }
+
+  .Github-link {
     font-size: 8px;
   }
 
